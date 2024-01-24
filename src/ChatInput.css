@@ -1,0 +1,33 @@
+.chat-input-container {
+    position: fixed;
+    left: 50%; /* Set left to 50% of the viewport */
+    bottom: 0; /* Stick to bottom */
+    display: flex;
+    width: 50rem;
+    transform: translateX(-30%);
+    margin-bottom: 3rem;
+}
+
+.chat-input {
+    flex-grow: 1;
+    padding: 0.8rem;
+    padding-right: 60px; /* Increase right padding to make space for the button */
+    background-color: rgb(28, 30, 58, 1);
+    border-top: 0.5rem;
+    border-radius: 10px;
+    color: white;
+       resize: none;
+}
+
+.send-button {
+    position: absolute; /* Change position to absolute */
+    right: 15px; /* Adjust right positioning */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Align center vertically */
+    padding: 10px 20px;
+
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
